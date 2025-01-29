@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/css/all.css">
+    <link rel="stylesheet" href="/assets/js/main.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,
+400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contain">
+            <div class="left">
+                <h1>Social media shared today, tomorrow or by location</h1>
+                <div class="image-container">
+                    <img src="/assets/image/phone-img.png" alt="Phone Image 1" class="img-left">
+                    <img src="/assets/image/phone-img.png" alt="Phone Image 3" class="img-middle">
+                    <img src="/assets/image/phone-img.png" alt="Phone Image 2" class="img-right">
+                </div>
+                <img src="/assets/image/Slider dots.png" alt="" class="slider-dots">
+            </div>
+            <div class="right">
+                <div class="logo">
+                    <img src="/assets/image/capzul-img.png" alt="" width="29.52px">
+                    <p style="color: black;" class="logo-text">Capzule</p>
+                </div>
+                <div class="right2">
+                    <div class="create">
+                        <h2>Create account</h2>
+                        <p>For business, band or celebrity.</p>
+                    </div>
+                    <form id="form">
+                        <div class="input-control">
+                            <div class="input-fields">
+                                <div class="field">
+                                    <label>First name</label>
+                                    <input type="text" id="first-name" name="first-name">
+                                    <div id="fname_error" style="color: red; font-size: 12px;"></div>
+
+                                </div>
+                                <div class="field">
+                                    <label>Last name</label>
+                                    <input type="text" id="last-name" name="last-name">
+                                    <div id="lastname_error" style="color: red; font-size: 12px;"></div>
+                                </div>
+                            </div>
+
+                            <div class="input-fields">
+                                <div class="field">
+                                    <label>Email or phone number</label>
+                                    <input type="email" id="email" name="email">
+                                    <div id="email_error" style="color: red; font-size: 12px;"></div>
+                                </div>
+                                <div class="field">
+                                    <label>Date of birth <span class="date">(MM/DD/YY)</span></label>
+                                    <input type="text" id="dob" name="dob" onfocus="(this.type='date')"
+                                        onblur="(this.type='text')" placeholder="">
+                                    <div id="dob_error" style="color: red; font-size: 12px;"></div>
+                                </div>
+                            </div>
+                            <div class="input-fields">
+                                <div class="field">
+                                    <label>Password</label>
+                                    <input type="password" id="password" name="password">
+                                    <div id="pwd_error" style="color: red; font-size: 12px;"></div>
+                                </div>
+                                <div class="field">
+
+                                    <label>Confirm password</label>
+                                    <input type="password" id="confirm-password" name="confirm-password">
+                                    <div id="cpwd_error" style="color: red; font-size: 12px;"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="remember">
+                            <div class="me">
+                                <input type="checkbox" id="remember-me">
+                                <p>Remember me</p>
+                            </div>
+                                <div>
+                                    <p class="forget"><a href="#">Forget Password?</a></p>
+                                </div>
+                        </div>
+                        <div class="me">
+                            <input type="checkbox" id="terms" style="color: red; font-size: 12px;">
+                            <p>I agree to all the <a href="#">Terms</a> and <a href="#">Privacy Policy</a></p>
+                        </div>
+                        <div class="buttons">
+                            <button type="submit">Create account</button>
+                            <button type="button"><img src="/assets/image/google.svg" alt="">Sign-in with
+                                Google</button>
+                        </div>
+                        <div class="button2">
+                            <p>Don't have an account? <a href="#">Log in</a></p>
+                        </div>
+                        <div class="store-buttons">
+                            <a href="https://play.google.com/store" target="_blank" class="store-link">
+                                <img src="/assets/image/google-play-badge-logo-svgrepo-com.svg"
+                                    alt="Get it on Google Play" class="store-img">
+                            </a>
+                            <a href="https://www.apple.com/app-store/" target="_blank" class="store-link">
+                                <img src="/assets/image/download-on-the-app-store-apple-logo-svgrepo-com.svg"
+                                    alt="Download on the App Store" class="store-img">
+                            </a>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
